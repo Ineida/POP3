@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxmlFile/GridPaneLogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxmlFile/GridPaneLogin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxmlFile/gridPaneServeurConnexion.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/ClientPOP3.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,8 +89,12 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectId" id="1Yvdouls4CeYaQRaBwnamwJRlUs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -120,7 +131,7 @@
       <recent name="C:\Users\cardo\OneDrive\Bureau\COURS\ipc\ClientPOPV2\src\fxmlFile" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -146,38 +157,16 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="ClientPOP3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ClientPackage.metier.ClientPOP3" />
+    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fxmlFile.Main" />
       <module name="ClientPOPV2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ClientPackage.metier.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="ClientPackage.fxmlFile.Main" />
+    <configuration default="true" type="Application" factoryName="Application" singleton="false">
+      <option name="MAIN_CLASS_NAME" value="fxmlFile.Main" />
       <module name="ClientPOPV2" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -213,11 +202,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.ClientPOP3" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -240,7 +224,7 @@
       <workItem from="1584263886474" duration="7259000" />
       <workItem from="1584308197457" duration="24198000" />
       <workItem from="1584454739557" duration="15680000" />
-      <workItem from="1584479984515" duration="36722000" />
+      <workItem from="1584479984515" duration="39180000" />
     </task>
     <servers />
   </component>
@@ -252,14 +236,18 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584355154367">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584639639821">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584355154367" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584639639821" />
     <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1584532470215">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584532470215" />
+    <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584638546440">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1584638546440" />
     <state x="390" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583829681539">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -272,46 +260,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="402" height="450" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1584361963695" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1584264312114">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1584638578650">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584264312114" />
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584638578650" />
     <state x="463" y="240" key="Github.CreateGistDialog" timestamp="1584538654145">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="463" y="240" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1584538654145" />
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1584635701403">
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom" timestamp="1584639668842">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584635701403" />
-    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1584635701402">
+    <state width="1237" height="205" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584639668842" />
+    <state width="1237" height="205" key="GridCell.Tab.0.center" timestamp="1584639668842">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584635701402" />
-    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1584635701402">
+    <state width="1237" height="205" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584639668842" />
+    <state width="1237" height="205" key="GridCell.Tab.0.left" timestamp="1584639668841">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584635701402" />
-    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1584635701403">
+    <state width="1237" height="205" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584639668841" />
+    <state width="1237" height="205" key="GridCell.Tab.0.right" timestamp="1584639668842">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584635701403" />
-    <state width="1237" height="281" key="GridCell.Tab.1.bottom" timestamp="1584626425837">
+    <state width="1237" height="205" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584639668842" />
+    <state width="1237" height="281" key="GridCell.Tab.1.bottom" timestamp="1584639613898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="281" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584626425837" />
-    <state width="1237" height="281" key="GridCell.Tab.1.center" timestamp="1584626425837">
+    <state width="1237" height="281" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584639613898" />
+    <state width="1237" height="281" key="GridCell.Tab.1.center" timestamp="1584639613898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="281" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584626425837" />
-    <state width="1237" height="281" key="GridCell.Tab.1.left" timestamp="1584626425837">
+    <state width="1237" height="281" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584639613898" />
+    <state width="1237" height="281" key="GridCell.Tab.1.left" timestamp="1584639613898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="281" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584626425837" />
-    <state width="1237" height="281" key="GridCell.Tab.1.right" timestamp="1584626425837">
+    <state width="1237" height="281" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584639613898" />
+    <state width="1237" height="281" key="GridCell.Tab.1.right" timestamp="1584639613898">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="281" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584626425837" />
+    <state width="1237" height="281" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584639613898" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1584624190370">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -357,9 +345,14 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ClientPackage/Controller/ControllerGridPaneMessagerie.java</url>
+          <url>file://$PROJECT_DIR$/src/Controller/ControllerGridPaneMessagerie.java</url>
           <line>156</line>
           <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Controller/ControllerGridPaneLoginPOP3.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

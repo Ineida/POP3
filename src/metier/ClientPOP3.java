@@ -16,7 +16,7 @@ public class ClientPOP3 {
     private Client client;
     private String user;
     private String password;
-    private String ressourcesName = "src/ClientPackage.metier/ClientAccount/";
+    private String ressourcesName = "src/metier/ClientAccount/";
 
     public ClientPOP3(String ip, int port) throws IOException {
        this.client = new Client(ip, port);
