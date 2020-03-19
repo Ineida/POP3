@@ -94,11 +94,10 @@ public class ControllerGridPaneLoginPOP3 implements Initializable {
 
     public void demandeConnexion(ActionEvent event) throws IOException, InterruptedException {
         boolean connect = false;
-        setError("");
-        if(nombre_tentative < NOMBRE_MAX_CONNEXION) {
-            if (this.getInputPassword() == "" || this.getInputUser() == "") {
-                setError("Le login ou le mot de passe vide");
-            } else {
+        this.setError("");
+        if (this.getInputPassword().length() == 0 || this.getInputUser().length() == 0) {
+            this.setError("Le login ou le mot de passe vide");
+        } else if(nombre_tentative < NOMBRE_MAX_CONNEXION) {
                 //connexion etat connexion
                 connect = client.connexion(getInputUser(), getInputPassword());
                 if (connect) {
@@ -121,10 +120,7 @@ public class ControllerGridPaneLoginPOP3 implements Initializable {
                     this.setError("Mot de passe ou login erroné");
                     nombre_tentative++;
                 }
-            }
-
-        }
-        else {
+            } else {
             try {
                 client.closeConnexion();
             } catch (IOException e) {

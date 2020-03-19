@@ -1,13 +1,14 @@
 package metier;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Date;
 
 public class Message {
     private int sizeOctet;
     private String messageID;
-    private String to;
+    private ArrayList<String> to = new ArrayList<String> ();
     private String from;
     private String date;
     private String subject;
@@ -18,7 +19,7 @@ public class Message {
     }
 
     public Message(String to, String from, String subject, String message) {
-        this.to = to;
+        this.to.add(to);
         this.from = from;
         this.subject = subject;
         this.message = message;
@@ -73,7 +74,7 @@ public class Message {
     public Message(String messageID, String to,
                    String from, Date date, String subject, String message) {
         this.messageID = messageID;
-        this.to = to;
+        this.to.add(to);
         this.from = from;
         this.date = date.toString();
         this.subject = subject;
@@ -84,8 +85,7 @@ public class Message {
     }
 
     public int getSizeOctet() {
-        return (this.to + this.from + this.message
-                + this.subject +this.date).length();
+        return sizeOctet;
     }
 
     public  String getMessageTitle() {
@@ -107,11 +107,15 @@ public class Message {
     }
 
     public String getTo() {
+        String to ="";
+        for(String item : this.to){
+            to += item +",";
+        };
         return to;
     }
 
     public void setTo(String to) {
-        this.to = to;
+        this.to.add(to);
     }
 
     public String getFrom() {
