@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ControllerGridPaneServeurConnexion">
+    <columnConstraints>
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane nodeOrientation="LEFT_TO_RIGHT" prefHeight="278.0" prefWidth="413.0">
+            <children>
+                <Button fx:id="validate" layoutX="160.0" layoutY="200.0" mnemonicParsing="false"
+                        onAction="#demandeConnexion" prefHeight="0.0" prefWidth="84.0" text="Valider" />
+
+                <TextField fx:id="port" layoutX="132.0" layoutY="139.0" prefHeight="25.0" prefWidth="245.0" />
+                <Label layoutX="47.0" layoutY="139.0" prefHeight="25.0" prefWidth="70.0" text="Port" />
+                <Label layoutX="47.0" layoutY="107.0" text="Adresse IP" />
+                <TextField fx:id="ip_address" layoutX="132.0" layoutY="103.0" onDragOver="#getInputIp_address" prefHeight="25.0" prefWidth="245.0" />
+                <Label layoutX="27.0" layoutY="32.0" prefHeight="39.0" prefWidth="360.0" text="Informations sur le serveur" textFill="#0404ff">
+                    <font>
+                        <Font size="27.0" />
+                    </font>
+                </Label>
+                <Label fx:id="error" layoutX="103.0" layoutY="177.0" prefHeight="17.0" prefWidth="273.0" textAlignment="CENTER" textFill="#f30b0b">
+                    <font>
+                        <Font size="8.0" />
+                    </font>
+                </Label>
+
+            </children>
+            <padding>
+                <Insets top="57.0" />
+            </padding>
+        </Pane>
+    </children>
+</GridPane>
