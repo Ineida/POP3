@@ -19,7 +19,7 @@ public class Communication implements Runnable {
     //flux I/O
     private BufferedReader in;
     private PrintStream out;
-    private final String chemin = "./src/";
+    private final String chemin = "./src/Serveur/";
     private String etat;
     private boolean clientDemandeQuit;
     private String login;
