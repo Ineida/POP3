@@ -1,364 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+    <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/META-INF/serveur.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/Ineida/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/Ineida/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/Ineida/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/Ineida/mdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/Communication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/Controller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/Tp1_ipc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/vascis/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/vascis/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/vascis/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/vascis/mdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/Ineida/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/Ineida/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/Ineida/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/Ineida/mdp.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Communication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Tp1_ipc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/sample.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/vascis/1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/vascis/2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/vascis/3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serveur/vascis/mdp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxmlFile/gridPaneServeurConnexion.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ClientPOPV2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/3" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CodeInsightWorkspaceSettings">
-    <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
-    <breakpoint_rules converted="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="JavaFxApplication" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
-  <component name="FindManager">
-    <FindUsagesManager>
-      <setting name="OPEN_NEW_TAB" value="false" />
-    </FindUsagesManager>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectId" id="1Yvdouls4CeYaQRaBwnamwJRlUs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectReloadState">
-    <option name="STATE" value="0" />
-  </component>
+  <component name="ProjectId" id="1ZzLrbHe96MFR4o8nX7xVU5sE4V" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToClass.includeLibraries" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
-    <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="recentsLimit" value="5" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\cardo\OneDrive\Bureau\COURS\ipc\ClientPOPV2\src\metier" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\cardo\OneDrive\Bureau\COURS\ipc\ClientPOPV2\src\fxmlFile" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Serveur.tp1_ipc.Main" />
+      <module name="ClientPOPV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Serveur.tp1_ipc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
-      <Host>localhost</Host>
-      <Port>5050</Port>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="fxmlFile.Main" />
       <module name="ClientPOPV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="fxmlFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application" singleton="false">
-      <option name="MAIN_CLASS_NAME" value="fxmlFile.Main" />
+    <configuration name="Tp1_ipc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Serveur.tp1_ipc.Tp1_ipc" />
       <module name="ClientPOPV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Serveur.tp1_ipc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="TEST_OBJECT" value="class" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="TestNG">
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Tp1_ipc" />
+        <item itemvalue="Application.Main (1)" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
-      <created>1359379246138</created>
+      <changelist id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="" />
+      <created>1585837175292</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1359379246138</updated>
-      <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1583827190831" duration="3612000" />
-      <workItem from="1583847949559" duration="2818000" />
-      <workItem from="1583910849740" duration="668000" />
-      <workItem from="1583912023374" duration="20000" />
-      <workItem from="1584212326250" duration="1514000" />
-      <workItem from="1584213884635" duration="10340000" />
-      <workItem from="1584258242794" duration="5143000" />
-      <workItem from="1584263886474" duration="7259000" />
-      <workItem from="1584308197457" duration="24198000" />
-      <workItem from="1584454739557" duration="15680000" />
-      <workItem from="1584479984515" duration="40283000" />
-      <workItem from="1584643704308" duration="3100000" />
+      <updated>1585837175292</updated>
+      <workItem from="1585837183757" duration="4000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
-    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
-  </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584639639821">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585837360836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584639639821" />
-    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser" timestamp="1584532470215">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585837360836" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585837360835">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="42" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1584532470215" />
-    <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1584638546440">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585837360835" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585837360835">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="371" y="124" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1280.680@0.0.1280.680" timestamp="1584638546440" />
-    <state x="390" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1583829681539">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585837360835" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585837360836">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="390" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.680@0.0.1280.680" timestamp="1583829681539" />
-    <state x="371" y="88" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1584384087462">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="371" y="88" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1280.680@0.0.1280.680" timestamp="1584384087462" />
-    <state width="402" height="450" key="DebuggerActiveHint" timestamp="1584361963695">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="402" height="450" key="DebuggerActiveHint/0.0.1280.680@0.0.1280.680" timestamp="1584361963695" />
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1584638578650">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1584638578650" />
-    <state x="463" y="240" key="Github.CreateGistDialog" timestamp="1584538654145">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="463" y="240" key="Github.CreateGistDialog/0.0.1280.680@0.0.1280.680" timestamp="1584538654145" />
-    <state width="1237" height="281" key="GridCell.Tab.0.bottom" timestamp="1584646221895">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="281" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584646221895" />
-    <state width="1237" height="281" key="GridCell.Tab.0.center" timestamp="1584646221894">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="281" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1584646221894" />
-    <state width="1237" height="281" key="GridCell.Tab.0.left" timestamp="1584646221894">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="281" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1584646221894" />
-    <state width="1237" height="281" key="GridCell.Tab.0.right" timestamp="1584646221894">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="281" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1584646221894" />
-    <state width="1237" height="281" key="GridCell.Tab.1.bottom" timestamp="1584646221895">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="281" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1584646221895" />
-    <state width="1237" height="281" key="GridCell.Tab.1.center" timestamp="1584646221895">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="281" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1584646221895" />
-    <state width="1237" height="281" key="GridCell.Tab.1.left" timestamp="1584646221895">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="281" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1584646221895" />
-    <state width="1237" height="281" key="GridCell.Tab.1.right" timestamp="1584646221895">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="281" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1584646221895" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1584624190370">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1280.680@0.0.1280.680" timestamp="1584624190370" />
-    <state width="647" height="347" key="XDebugger.FullValuePopup" timestamp="1584527651687">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="647" height="347" key="XDebugger.FullValuePopup/0.0.1280.680@0.0.1280.680" timestamp="1584527651687" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1584480491868">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1584480491868" />
-    <state x="203" y="77" width="925" height="601" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1584622399736">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="203" y="77" width="925" height="601" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1280.680@0.0.1280.680" timestamp="1584622399736" />
-    <state x="334" y="72" width="612" height="536" key="find.popup" timestamp="1584634600969">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="334" y="72" width="612" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1584634600969" />
-    <state x="91" y="43" key="new project wizard" timestamp="1584284050973">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="91" y="43" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1584284050973" />
-    <state x="348" y="0" key="refactoring.ChangeSignatureDialog" timestamp="1584309639439">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="348" y="0" key="refactoring.ChangeSignatureDialog/0.0.1280.680@0.0.1280.680" timestamp="1584309639439" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1584466201330">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1584466201330" />
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1584477262562">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1584477262562" />
-    <state x="363" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1584368301131">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="363" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.680@0.0.1280.680" timestamp="1584368301131" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Controller/ControllerGridPaneMessagerie.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Controller/ControllerGridPaneLoginPOP3.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="in" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585837360836" />
   </component>
 </project>
