@@ -2,48 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/metier/ClientPOP3S.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/metier/StringServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneLoginPOP3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneLoginPOP3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneServeurConnexion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerScreen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/TCP/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/fxmlFile/GridPaneLogin.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/fxmlFile/GridPaneMessagerie.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/fxmlFile/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/metier/ClientPOP3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/metier/Etat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/metier/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/metier/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerGridPaneMessagerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerGridPaneServeurConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerScreen.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/tp1_ipc/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TCP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxmlFile/GridPaneLogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/fxmlFile/GridPaneLogin.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxmlFile/GridPaneMessagerie.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/fxmlFile/GridPaneMessagerie.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxmlFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/fxmlFile/gridPaneServeurConnexion.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/ClientPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/Etat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/Etat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/FileManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/ClientAccount/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/ClientAccount/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/ClientAccount/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/TCP/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/TCP/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/ClientPOP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/ClientPOP3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Serveur/tp1_ipc/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Serveur/tp1_ipc/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/TCP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/metier/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/ClientPOP3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,10 +62,17 @@
   <component name="FavoritesManager">
     <favorites_list name="ClientPOPV2" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="clientSecurisé2" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -118,7 +96,39 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Client.metier" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ClientSecure">
+    <configuration name="C" type="Application" factoryName="Application" nameIsGenerated="true">
+      <module name="ClientPOPV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientSecure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_241" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Client.TCP.ClientSecure" />
+      <module name="ClientPOPV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.TCP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Serveur.tp1_ipc.Main" />
       <module name="ClientPOPV2" />
@@ -145,19 +155,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client.Main" />
-      <module name="ClientPOPV2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tp1_ipc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Serveur.tp1_ipc.Tp1_ipc" />
       <module name="ClientPOPV2" />
@@ -171,12 +168,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.C" />
+      <item itemvalue="Application.ClientSecure" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+      <item itemvalue="Application.Tp1_ipc" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.ClientSecure" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Tp1_ipc" />
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -192,7 +195,8 @@
       <option name="presentableId" value="Default" />
       <updated>1585837175292</updated>
       <workItem from="1585837183757" duration="1071000" />
-      <workItem from="1585931836070" duration="4282000" />
+      <workItem from="1585931836070" duration="7913000" />
+      <workItem from="1585942688306" duration="7241000" />
     </task>
     <servers />
   </component>
@@ -200,38 +204,50 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585940862282">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585940862282" />
+    <state x="368" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585941146133">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="368" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1585941146133" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1585937460627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1585937460627" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585938543714">
+    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1585940846207">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585938543714" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585938543714">
+    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585940846207" />
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom" timestamp="1585949065717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585938543714" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585938543714">
+    <state width="1237" height="152" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
+    <state width="1237" height="152" key="GridCell.Tab.0.center" timestamp="1585949065717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585938543714" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585938543714">
+    <state width="1237" height="152" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
+    <state width="1237" height="152" key="GridCell.Tab.0.left" timestamp="1585949065717">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585938543714" />
+    <state width="1237" height="152" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
+    <state width="1237" height="152" key="GridCell.Tab.0.right" timestamp="1585949065717">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="152" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
     <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1585934150581">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1585934150581" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585932094330">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585942689871">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585932094330" />
-    <state x="334" y="72" width="612" height="536" key="find.popup" timestamp="1585937982567">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585942689871" />
+    <state x="334" y="72" width="612" height="536" key="find.popup" timestamp="1585942191979">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="334" y="72" width="612" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1585937982567" />
+    <state x="334" y="72" width="612" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1585942191979" />
     <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585934143353">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -2,11 +2,15 @@ package Client.TCP;
 
 import java.io.*;
 import java.net.Socket;
+import java.security.KeyManagementException;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateException;
 
 
 public class Client {
-    private String ip;
-    private int port;
+    protected String ip;
+    protected  int port;
     private PrintStream out;
     private BufferedReader in;
     private Socket client;
@@ -57,7 +61,7 @@ public class Client {
      * initialise flux
      * @throws IOException
      */
-    public Boolean connexion() throws IOException {
+    public Boolean connexion() throws IOException, CertificateException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
         this.client = new Socket(this.ip, this.port);
         this.in = new BufferedReader(new InputStreamReader(this.client.getInputStream()));
         this.out = new PrintStream(this.client.getOutputStream());
@@ -99,7 +103,5 @@ public class Client {
         lettre= this.in.read();
         return lettre;
     }
-
-
 
 }
