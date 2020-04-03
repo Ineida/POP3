@@ -2,53 +2,101 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/META-INF/serveur.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/Ineida/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/Ineida/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/Ineida/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/Ineida/mdp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/Communication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/Controller.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/Tp1_ipc.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/tp1_ipc/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/vascis/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/vascis/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/vascis/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/serveur/Serveur/vascis/mdp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/Ineida/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/Ineida/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/Ineida/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/Ineida/mdp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Tp1_ipc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/sample.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/vascis/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/vascis/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/vascis/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serveur/vascis/mdp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClientPOPV2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneLoginPOP3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneLoginPOP3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneMessagerie.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerGridPaneServeurConnexion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Controller/ControllerScreen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/TCP/Client.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/fxmlFile/GridPaneLogin.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/fxmlFile/GridPaneMessagerie.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/fxmlFile/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/metier/ClientPOP3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/metier/Etat.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/metier/FileManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/metier/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/Controller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerGridPaneMessagerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerGridPaneServeurConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/ControllerScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/tp1_ipc/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TCP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxmlFile/GridPaneLogin.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/fxmlFile/GridPaneLogin.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxmlFile/GridPaneMessagerie.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/fxmlFile/GridPaneMessagerie.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxmlFile/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/fxmlFile/gridPaneServeurConnexion.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/2" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/metier/ClientAccount/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/ClientPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/Etat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/Etat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/FileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/FileManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/Message.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ClientPOPV2" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="clientSecurisé2" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZzLrbHe96MFR4o8nX7xVU5sE4V" />
@@ -59,11 +107,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Serveur.tp1_ipc.Main" />
       <module name="ClientPOPV2" />
@@ -78,11 +133,24 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fxmlFile.Main" />
+      <option name="MAIN_CLASS_NAME" value="Client.Controller.fxmlFile.Main" />
       <module name="ClientPOPV2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fxmlFile.*" />
+          <option name="PATTERN" value="Client.Controller.fxmlFile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.Main" />
+      <module name="ClientPOPV2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,9 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Tp1_ipc" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Tp1_ipc" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -121,7 +191,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585837175292</updated>
-      <workItem from="1585837183757" duration="4000" />
+      <workItem from="1585837183757" duration="1071000" />
+      <workItem from="1585931836070" duration="4282000" />
     </task>
     <servers />
   </component>
@@ -129,21 +200,62 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585837360836">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1585937460627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585837360836" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585837360835">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1585937460627" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1585938543714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585837360835" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585837360835">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585938543714" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1585938543714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585837360835" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585837360836">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585938543714" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1585938543714">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585837360836" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585938543714" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1585938543714">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585938543714" />
+    <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1585934150581">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1585934150581" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585932094330">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585932094330" />
+    <state x="334" y="72" width="612" height="536" key="find.popup" timestamp="1585937982567">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="334" y="72" width="612" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1585937982567" />
+    <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585934143353">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1585934143353" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="in" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
