@@ -5,6 +5,10 @@ import Client.metier.Message;
 
 import java.io.File;
 import java.io.IOException;
+import java.security.KeyManagementException;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Objects;
@@ -19,7 +23,7 @@ public class ClientPOP3 {
     protected String password;
     protected String ressourcesName = "src/Client/ClientAccount/";
 
-    public ClientPOP3(String ip, int port) throws IOException {
+    public ClientPOP3(String ip, int port) throws IOException, CertificateException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
        this.client = new Client(ip, port);
        this.client.connexion();
     }

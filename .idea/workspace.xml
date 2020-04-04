@@ -1,69 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="" />
+    <list default="true" id="7e652579-e5db-4ccf-ad22-0fe09ba897b7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Communication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DebuggerManager">
-    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint>
-        <option name="NOTIFY_CAUGHT" value="true" />
-        <option name="NOTIFY_UNCAUGHT" value="true" />
-        <option name="ENABLED" value="false" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </breakpoint_any>
-    <ui_properties converted="true" />
-    <breakpoint_rules converted="true" />
-  </component>
-  <component name="FavoritesManager">
-    <favorites_list name="ClientPOPV2" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ZzLrbHe96MFR4o8nX7xVU5sE4V" />
+  <component name="ProjectId" id="1a5UdirskUrgUDwCKLe3Zl90QUM" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -71,69 +27,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="Client.metier" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.ClientSecure">
-    <configuration name="C" type="Application" factoryName="Application" nameIsGenerated="true">
-      <module name="ClientPOPV2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Client.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientSecure" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk1.8.0_241" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="Client.TCP.ClientSecure" />
-      <module name="ClientPOPV2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Client.TCP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Serveur.tp1_ipc.Main" />
-      <module name="ClientPOPV2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Serveur.tp1_ipc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client.Controller.fxmlFile.Main" />
-      <module name="ClientPOPV2" />
+      <option name="MAIN_CLASS_NAME" value="Serveur.POP3S_serveur.Main" />
+      <module name="POP3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Client.Controller.fxmlFile.*" />
+          <option name="PATTERN" value="Serveur.POP3S_serveur.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,31 +45,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tp1_ipc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Serveur.tp1_ipc.Tp1_ipc" />
-      <module name="ClientPOPV2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Serveur.tp1_ipc.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.C" />
-      <item itemvalue="Application.ClientSecure" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Tp1_ipc" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientSecure" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Tp1_ipc" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -175,14 +56,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="" />
-      <created>1585837175292</created>
+      <changelist id="7e652579-e5db-4ccf-ad22-0fe09ba897b7" name="Default Changelist" comment="" />
+      <created>1586025037246</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1585837175292</updated>
-      <workItem from="1585837183757" duration="1071000" />
-      <workItem from="1585931836070" duration="7913000" />
-      <workItem from="1585942688306" duration="8027000" />
+      <updated>1586025037246</updated>
+      <workItem from="1586025039824" duration="856000" />
     </task>
     <servers />
   </component>
@@ -190,74 +69,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585940862282">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586025889357">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680@0.0.1280.680" timestamp="1585940862282" />
-    <state x="368" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585941146133">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="368" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1585941146133" />
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1585937460627">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1585937460627" />
-    <state x="421" y="82" key="FileChooserDialogImpl" timestamp="1585940846207">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585940846207" />
-    <state width="1237" height="152" key="GridCell.Tab.0.bottom" timestamp="1585949065717">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="152" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
-    <state width="1237" height="152" key="GridCell.Tab.0.center" timestamp="1585949065717">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="152" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
-    <state width="1237" height="152" key="GridCell.Tab.0.left" timestamp="1585949065717">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="152" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
-    <state width="1237" height="152" key="GridCell.Tab.0.right" timestamp="1585949065717">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1237" height="152" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
-    <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1585934150581">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1585934150581" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585942689871">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1585942689871" />
-    <state x="334" y="72" width="612" height="536" key="find.popup" timestamp="1585942191979">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="334" y="72" width="612" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1585942191979" />
-    <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585934143353">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1585934143353" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="70" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="in" language="JAVA" />
-      </configuration>
-    </watches-manager>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586025889357" />
   </component>
 </project>

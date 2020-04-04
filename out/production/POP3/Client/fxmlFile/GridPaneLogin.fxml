@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="258.0" prefWidth="374.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+
+    <children>
+        <Pane nodeOrientation="LEFT_TO_RIGHT" prefHeight="278.0" prefWidth="413.0">
+            <children>
+                <Button fx:id="validate" layoutX="160.0" layoutY="200.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="84.0" text="Valider" />
+                <PasswordField fx:id="password" layoutX="132.0" layoutY="139.0" prefHeight="25.0" prefWidth="245.0" promptText="********" />
+                <Label layoutX="47.0" layoutY="139.0" prefHeight="25.0" prefWidth="70.0" text="Password" />
+                <Label layoutX="47.0" layoutY="107.0" text="Login" />
+                <TextField fx:id="login" layoutX="132.0" layoutY="103.0" prefHeight="25.0" prefWidth="245.0" promptText="ineida@email.com">
+
+                </TextField>
+                <Label layoutX="108.0" layoutY="30.0" prefHeight="17.0" prefWidth="245.0" text="SE CONNECTER" textFill="#0404ff">
+                    <font>
+                        <Font size="27.0" />
+                    </font>
+                </Label>
+                <Label fx:id="error" layoutX="132.0" layoutY="177.0" prefHeight="17.0" prefWidth="245.0" textFill="#e50909" />
+            </children>
+            <padding>
+                <Insets top="57.0" />
+            </padding>
+        </Pane>
+    </children>
+
+</AnchorPane>
