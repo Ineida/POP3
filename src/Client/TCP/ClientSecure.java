@@ -53,7 +53,7 @@ public class ClientSecure  extends  Client{
         char[] passphrase = this.key.toCharArray();
         KeyStore keystore = KeyStore.getInstance("JKS");
         keystore.load(null, passphrase);
-        FileOutputStream file = new FileOutputStream ("keyStoreName.jks");
+        FileOutputStream file = new FileOutputStream ("keyStoreClient.jks");
         keystore.store(file , passphrase);
 
         TrustManagerFactory tmf = TrustManagerFactory.getInstance("SunX509");

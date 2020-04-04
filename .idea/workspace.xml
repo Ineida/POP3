@@ -2,55 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.keystore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$3$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/TCP/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/fxmlFile/GridPaneLogin.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/fxmlFile/GridPaneMessagerie.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/fxmlFile/gridPaneServeurConnexion.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/metier/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3/ClientPOP3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/META-INF/POP3.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Ineida/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Ineida/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Ineida/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Ineida/mdp.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/vascis/1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/vascis/2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/vascis/3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/vascis/mdp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Controller/ControllerGridPaneLoginPOP3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Controller/ControllerGridPaneLoginPOP3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Controller/ControllerGridPaneMessagerie$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Controller/ControllerGridPaneMessagerie$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Controller/ControllerGridPaneMessagerie$3$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Controller/ControllerGridPaneMessagerie$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Controller/ControllerGridPaneMessagerie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Controller/ControllerGridPaneServeurConnexion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/TCP/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/TCP/ClientSecure.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/ClientPOP3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/ClientPOP3S.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/Etat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/FileManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Serveur/tp1_ipc/Communication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Serveur/tp1_ipc/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Serveur/tp1_ipc/Tp1_ipc.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.keystore" beforeDir="false" afterPath="$PROJECT_DIR$/keystore_serveur/.keystore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyStoreName.jks" beforeDir="false" afterPath="$PROJECT_DIR$/keyStoreName.jks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Communication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
