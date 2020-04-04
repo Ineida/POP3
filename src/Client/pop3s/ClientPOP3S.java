@@ -31,7 +31,7 @@ public class ClientPOP3S  extends ClientPOP3 {
     public ClientPOP3S(String ip, int port, String method) throws IOException, NoSuchAlgorithmException,
             CertificateException, KeyStoreException, KeyManagementException
     {
-        super(ip, port);
+        super();
         this.client = new ClientSecure(ip, port);
         this.client.connexion();
         this.method = method;

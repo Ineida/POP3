@@ -52,9 +52,11 @@ public class ClientSecure  extends  Client{
     {
         char[] passphrase = this.key.toCharArray();
         KeyStore keystore = KeyStore.getInstance("JKS");
-        keystore.load(new FileInputStream(".keystore"), passphrase);
+        keystore.load(null, passphrase);
+        FileOutputStream file = new FileOutputStream ("keyStoreName.jks");
+        keystore.store(file , passphrase);
 
-        TrustManagerFactory tmf = TrustManagerFactory.getInstance("");
+        TrustManagerFactory tmf = TrustManagerFactory.getInstance("SunX509");
         tmf.init(keystore);
         SSLContext context = SSLContext.getInstance("TLS");
         TrustManager[] trustManagers = tmf.getTrustManagers();

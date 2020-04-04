@@ -15,6 +15,10 @@ import Client.metier.Etat;
 
 import java.io.IOException;
 import java.net.UnknownHostException;
+import java.security.KeyManagementException;
+import java.security.KeyStoreException;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateException;
 
 public class ControllerGridPaneServeurConnexion {
     @FXML
@@ -85,6 +89,14 @@ public class ControllerGridPaneServeurConnexion {
         } catch (IOException e) {
             this.setError("une erreur s'est produit:"+ e.getMessage());
             connexion = false;
+        } catch (CertificateException e) {
+            e.printStackTrace();
+        } catch (NoSuchAlgorithmException e) {
+            e.printStackTrace();
+        } catch (KeyStoreException e) {
+            e.printStackTrace();
+        } catch (KeyManagementException e) {
+            e.printStackTrace();
         } finally {
             this.port.setText("");
             ip_address.setText("");
