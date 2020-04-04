@@ -1,51 +1,38 @@
 package Client.metier;
 
-import Client.TCP.Client;
+import Client.TCP.ClientSecure;
 
 import java.io.File;
 import java.io.IOException;
+import java.security.KeyManagementException;
+import java.security.KeyStoreException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.security.cert.CertificateException;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Objects;
 
-public class ClientPOP3 {
-    protected static final String APOP ="APOP";
-    protected static final String RETR ="RETR";
-    protected static final String STAT ="STAT";
-    protected static final String QUIT ="QUIT";
-    private Client client;
-    protected String user;
-    protected String password;
-    protected String ressourcesName = "src/Client/ClientAccount/";
+public class ClientPOP3S  extends ClientPOP3{
+    private ClientSecure client;
+    private MessageDigest messageDigest;
 
-    public ClientPOP3(String ip, int port) throws IOException {
-       this.client = new Client(ip, port);
-       this.client.connexion();
+    public ClientPOP3S(String ip, int port) throws IOException, NoSuchAlgorithmException,
+            CertificateException, KeyStoreException, KeyManagementException {
+        super(ip, port);
+        this.client = new ClientSecure(ip, port);
+        this.client.connexion();
+        this.messageDigest = MessageDigest.getInstance("MD5");
     }
 
-    public String getUser() {
-        return user;
-    }
-
-    public void setUser(String user) {
-        this.user = user;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    //unique car chaque utilisateur est differents dans les serveur
-    public String getUserResourcesName() {
-        return this.ressourcesName;
-    }
 
     public void commandeAPOP( String user, String password) {
-        String message = APOP + " " + user + " " + password;
+        String message = APOP + " " + user + " ";
+        String  response = (String) this.readServerResponse().get("firstLine");
+        String[] splitedResponse = response.split(" ");
+        byte[] secret = (password +splitedResponse[splitedResponse.length -1]).getBytes();
+        this.messageDigest.update(secret);
+        secret = this.messageDigest.digest();
+        message += secret;
         try {
             this.client.sendMessage(message);
 
@@ -195,14 +182,4 @@ public class ClientPOP3 {
         return connect;
     }
 
-    public  void deleteUserFiles(File file){
-        if (!file.exists())
-            return;
-
-        if (file.isDirectory()) {
-            for (File f : Objects.requireNonNull(file.listFiles())) {
-                f.delete();
-            }
-        }
-    }
 }
