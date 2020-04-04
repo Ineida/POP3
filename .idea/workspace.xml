@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/metier/ClientPOP3S.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client/metier/StringServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/ClientAccount/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/ClientAccount/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/ClientAccount/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/TCP/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/TCP/Client.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/ClientPOP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientPOPV2/Client/metier/ClientPOP3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Serveur/tp1_ipc/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientPOPV2/Serveur/tp1_ipc/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/TCP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/metier/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/ClientPOP3.java" afterDir="false" />
-    </list>
+    <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -196,7 +182,7 @@
       <updated>1585837175292</updated>
       <workItem from="1585837183757" duration="1071000" />
       <workItem from="1585931836070" duration="7913000" />
-      <workItem from="1585942688306" duration="7241000" />
+      <workItem from="1585942688306" duration="8027000" />
     </task>
     <servers />
   </component>

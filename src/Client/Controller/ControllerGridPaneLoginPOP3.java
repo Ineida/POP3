@@ -10,7 +10,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.stage.Stage;
-import Client.metier.ClientPOP3;
+import Client.pop3.ClientPOP3;
 import Client.metier.Message;
 
 import java.io.IOException;

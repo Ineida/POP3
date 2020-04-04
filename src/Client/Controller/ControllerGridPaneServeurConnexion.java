@@ -10,7 +10,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import Client.metier.ClientPOP3;
+import Client.pop3.ClientPOP3;
 import Client.metier.Etat;
 
 import java.io.IOException;

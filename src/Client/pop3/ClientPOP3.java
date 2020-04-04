@@ -1,6 +1,7 @@
-package Client.metier;
+package Client.pop3;
 
 import Client.TCP.Client;
+import Client.metier.Message;
 
 import java.io.File;
 import java.io.IOException;

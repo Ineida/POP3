@@ -1,6 +1,8 @@
-package Client.metier;
+package Client.pop3s;
 
 import Client.TCP.ClientSecure;
+import Client.metier.Message;
+import Client.pop3.ClientPOP3;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,7 +14,7 @@ import java.security.cert.CertificateException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class ClientPOP3S  extends ClientPOP3{
+public class ClientPOP3S  extends ClientPOP3 {
     private ClientSecure client;
     private MessageDigest messageDigest;
 
