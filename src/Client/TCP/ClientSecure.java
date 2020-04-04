@@ -48,7 +48,8 @@ public class ClientSecure  extends  Client{
      * @throws IOException
      */
     public Boolean connexion( boolean wantClientAuth ) throws IOException, KeyStoreException,
-            CertificateException, NoSuchAlgorithmException, KeyManagementException {
+            CertificateException, NoSuchAlgorithmException, KeyManagementException
+    {
         char[] passphrase = this.key.toCharArray();
         KeyStore keystore = KeyStore.getInstance("JKS");
         keystore.load(new FileInputStream(".keystore"), passphrase);
@@ -107,21 +108,5 @@ public class ClientSecure  extends  Client{
     public int intRead() throws IOException {
         return  this.in.read();
     }
-
-
-    public static void main(String[] args) throws IOException {
-        SSLSocket client = (SSLSocket) SSLSocketFactory.getDefault().createSocket();
-        client.setEnabledCipherSuites(new String[]{ "TLS_DH_anon_WITH_AES_256_GCM_SHA384",
-                "TLS_DH_anon_WITH_AES_128_GCM_SHA256",
-                "TLS_DH_anon_WITH_AES_256_CBC_SHA256",
-                "TLS_ECDH_anon_WITH_AES_256_CBC_SHA",
-                "TLS_DH_anon_WITH_AES_256_CBC_SHA",
-                "TLS_DH_anon_WITH_AES_128_CBC_SHA256",
-                "TLS_ECDH_anon_WITH_AES_128_CBC_SHA",
-                "TLS_DH_anon_WITH_AES_128_CBC_SHA"});
-
-        System.out.println(client.getSession().getCipherSuite());
-    }
-
 
 }

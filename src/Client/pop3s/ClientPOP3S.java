@@ -4,6 +4,8 @@ import Client.TCP.ClientSecure;
 import Client.metier.Message;
 import Client.pop3.ClientPOP3;
 
+import javax.net.ssl.SSLSocket;
+import javax.net.ssl.SSLSocketFactory;
 import java.io.File;
 import java.io.IOException;
 import java.security.KeyManagementException;
@@ -17,17 +19,35 @@ import java.util.HashMap;
 public class ClientPOP3S  extends ClientPOP3 {
     private ClientSecure client;
     private MessageDigest messageDigest;
+    private  String method;
+
 
     public ClientPOP3S(String ip, int port) throws IOException, NoSuchAlgorithmException,
-            CertificateException, KeyStoreException, KeyManagementException {
+            CertificateException, KeyStoreException, KeyManagementException
+    {
+        this(ip, port,"MD5");
+    }
+
+    public ClientPOP3S(String ip, int port, String method) throws IOException, NoSuchAlgorithmException,
+            CertificateException, KeyStoreException, KeyManagementException
+    {
         super(ip, port);
         this.client = new ClientSecure(ip, port);
         this.client.connexion();
-        this.messageDigest = MessageDigest.getInstance("MD5");
+        this.method = method;
+        this.messageDigest = MessageDigest.getInstance(this.method);
     }
 
 
-    public void commandeAPOP( String user, String password) {
+    public String getMethod() {
+        return method;
+    }
+
+    public void setMethod(String method) {
+        this.method = method;
+    }
+
+    public void commandeAPOP(String user, String password) {
         String message = APOP + " " + user + " ";
         String  response = (String) this.readServerResponse().get("firstLine");
         String[] splitedResponse = response.split(" ");
@@ -170,8 +190,8 @@ public class ClientPOP3S  extends ClientPOP3 {
      * si connectée il sauvegarde le user et password du client
      */
     public boolean connexion(String user, String password){
+        this.readServerResponse();
         boolean connect = false;
-
         this.commandeAPOP(user, password);
         HashMap response = this.readServerResponse();
         connect = (boolean)response.get("succes");
@@ -182,6 +202,14 @@ public class ClientPOP3S  extends ClientPOP3 {
         }
 
         return connect;
+    }
+
+
+    public static void main(String[] args) throws IOException, CertificateException,
+            NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
+        ClientPOP3S clientPOP3S = new ClientPOP3S( "192.168.0.22", 1025);
+        clientPOP3S.connexion("vascis", "mdp");
+
     }
 
 }

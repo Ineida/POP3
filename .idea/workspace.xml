@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="" />
+    <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +63,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="clientSecure" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,7 +92,7 @@
       <recent name="Client.metier" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientSecure">
+  <component name="RunManager">
     <configuration name="C" type="Application" factoryName="Application" nameIsGenerated="true">
       <module name="ClientPOPV2" />
       <extension name="coverage">
@@ -129,11 +134,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client.Controller.fxmlFile.Main" />
+      <option name="MAIN_CLASS_NAME" value="Client.Main" />
       <module name="ClientPOPV2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Client.Controller.fxmlFile.*" />
+          <option name="PATTERN" value="Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,10 +168,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ClientSecure" />
-        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Tp1_ipc" />
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.ClientSecure" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +188,7 @@
       <updated>1585837175292</updated>
       <workItem from="1585837183757" duration="1071000" />
       <workItem from="1585931836070" duration="7913000" />
-      <workItem from="1585942688306" duration="8027000" />
+      <workItem from="1585942688306" duration="10720000" />
     </task>
     <servers />
   </component>
@@ -198,6 +204,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="368" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1585941146133" />
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser" timestamp="1586025709439">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="446" y="25" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586025709439" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1585937460627">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -222,10 +232,14 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1237" height="152" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585949065717" />
-    <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1585934150581">
+    <state x="121" y="51" key="MergeDialog" timestamp="1586024375193">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1585934150581" />
+    <state x="121" y="51" key="MergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586024375193" />
+    <state x="354" y="57" key="MultipleFileMergeDialog" timestamp="1586024375200">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="354" y="57" key="MultipleFileMergeDialog/0.0.1280.680@0.0.1280.680" timestamp="1586024375200" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1585942689871">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -234,10 +248,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="334" y="72" width="612" height="536" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1585942191979" />
-    <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1585934143353">
+    <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog" timestamp="1586024332644">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1585934143353" />
+    <state x="378" y="54" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.680@0.0.1280.680" timestamp="1586024332644" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -251,6 +265,11 @@
           <url>file://$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java</url>
           <line>105</line>
           <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="72" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
