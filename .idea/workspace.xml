@@ -4,10 +4,8 @@
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/pop3/ClientPOP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3/ClientPOP3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/pop3s/ClientPOP3S.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3s/ClientPOP3S.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/metier/StringServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/StringServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,22 +127,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586028845405" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1586101982416">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1586103308629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586101982416" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1586101982416">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586103308629" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1586103308629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586101982416" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1586101982415">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586103308629" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1586103308629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586101982415" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1586101982416">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586103308629" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1586103308629">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586101982416" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586103308629" />
     <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586101235258">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

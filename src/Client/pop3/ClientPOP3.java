@@ -2,6 +2,7 @@ package Client.pop3;
 
 import Client.TCP.Client;
 import Client.metier.Message;
+import Client.metier.StringServices;
 
 import java.io.File;
 import java.io.IOException;
@@ -74,7 +75,9 @@ public class ClientPOP3 {
         byte[] secret = (splitedResponse[splitedResponse.length -1] + password).getBytes();
         this.messageDigest.update(secret);
         secret = this.messageDigest.digest();
-        message += secret;
+
+        message += StringServices.byteToString(secret);
+        System.out.println(message);
         try {
             this.client.sendMessage(message);
 

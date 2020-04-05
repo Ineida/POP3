@@ -15,4 +15,14 @@ public class StringServices {
         }
         return sb.toString();
     }
+
+
+    public static String byteToString(byte[] parameters) {
+        StringBuffer secretString =  new StringBuffer();
+        for (Byte caractere: parameters
+        ) {
+            secretString.append(String.format("%02x", caractere & 0xff));
+        }
+        return secretString.toString();
+    }
 }
