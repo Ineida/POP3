@@ -31,7 +31,7 @@ public class Tp1_ipc {
             ss = new ServerSocket(PORT);
             while(true){
                 connexion = ss.accept();
-                new Thread(new Communication(connexion)).start();
+                new Thread(new Communication(connexion,ss.getInetAddress().getHostName())).start();
             }
         } catch (IOException ex) {
             Logger.getLogger(Tp1_ipc.class.getName()).log(Level.SEVERE, null, ex);

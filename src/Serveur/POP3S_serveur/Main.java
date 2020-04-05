@@ -26,7 +26,6 @@ public class Main {
         try {
             char[] passphrase = "password".toCharArray();
             KeyStore keystore = KeyStore.getInstance("JKS");
-            //FileInputStream file = new FileInputStream("./keystore_serveur/.keystore");
             keystore.load(null, passphrase);
             FileOutputStream file = new FileOutputStream ("keyStoreName.jks");
             keystore.store(file , passphrase);
