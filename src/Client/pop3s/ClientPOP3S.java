@@ -204,7 +204,7 @@ public class ClientPOP3S  extends ClientPOP3 {
 
     public static void main(String[] args) throws IOException, CertificateException,
             NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
-        ClientPOP3S clientPOP3S = new ClientPOP3S( "192.168.0.22", 1025);
+        ClientPOP3S clientPOP3S = new ClientPOP3S( "192.168.0.4", 1025);
         clientPOP3S.connexion("vascis", "mdp");
 
     }

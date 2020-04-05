@@ -66,9 +66,26 @@ public class ClientSecure  extends  Client{
 
         this.client = (SSLSocket) sf.createSocket(this.ip, this.port);
         if(wantClientAuth) this.client.setWantClientAuth(true);
-        this.client.getSession().getCipherSuite();
+        //this.client.getSession().getCipherSuite();
+        String [] cipherSuite = this.client.getSupportedCipherSuites();
+        String [] allowedCipherSuite = new String[8];
+        int j=0;
+        for (int i = 0; i < this.client.getSupportedCipherSuites().length; i++) {
+            if(this.client.getSupportedCipherSuites()[i].contains("anon")){
+                allowedCipherSuite[j] = this.client.getSupportedCipherSuites()[i];
+                j++;
+            }
+
+        }
+
+
+        this.client.setEnabledCipherSuites(allowedCipherSuite);
+
         this.in = new BufferedReader(new InputStreamReader(this.client.getInputStream()));
         this.out = new PrintStream(this.client.getOutputStream());
+        /*for (int i=0;i<this.client.getEnabledCipherSuites().length;i++){
+            System.out.println(this.client.getEnabledCipherSuites()[i]);
+        }*/
         return true;
     }
 

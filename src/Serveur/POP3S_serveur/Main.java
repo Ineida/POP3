@@ -34,8 +34,10 @@ public class Main {
             SSLContext context = SSLContext.getInstance("TLS");
             KeyManager[] keyManagers = kmf.getKeyManagers();
 
+
             context.init(keyManagers, null, null);
             ss = (SSLServerSocket) SSLServerSocketFactory.getDefault().createServerSocket(PORT);
+            System.out.println(ss);
             String [] cipherSuite = ss.getSupportedCipherSuites();
             String [] allowedCipherSuite = new String[8];
             int j=0;
@@ -46,11 +48,17 @@ public class Main {
                 }
 
             }
-            ss.setEnabledCipherSuites(allowedCipherSuite);
 
+
+            ss.setEnabledCipherSuites(allowedCipherSuite);
+            String [] cypher = ss.getEnabledCipherSuites();
+            for (int i=0;i<cypher.length;i++){
+                System.out.println(cypher[i]);
+            }
 
             while(true){
                 connexion = (SSLSocket) ss.accept();
+                System.out.println(connexion);
                 ss.setNeedClientAuth(true);
 
                 new Thread(new Communication(connexion,ss.getInetAddress().getHostName())).start();
