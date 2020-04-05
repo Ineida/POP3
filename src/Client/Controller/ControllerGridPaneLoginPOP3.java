@@ -147,7 +147,6 @@ public class ControllerGridPaneLoginPOP3 implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        System.out.println(this.client.readServerResponse());
         this.validate.setOnAction(new EventHandler<ActionEvent>(){
             @Override
             public void handle(ActionEvent event) {

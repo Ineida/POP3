@@ -7,6 +7,7 @@ import java.io.File;
 import java.io.IOException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
+import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
 import java.util.ArrayList;
@@ -22,14 +23,26 @@ public class ClientPOP3 {
     protected String user;
     protected String password;
     protected String ressourcesName = "src/Client/ClientAccount/";
+    protected MessageDigest messageDigest;
+    protected  String method;
 
     public ClientPOP3() {
         super();
     }
 
-    public ClientPOP3(String ip, int port) throws IOException, CertificateException, NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
+    public ClientPOP3(String ip, int port, String method) throws IOException, CertificateException,
+            NoSuchAlgorithmException, KeyStoreException, KeyManagementException
+    {
        this.client = new Client(ip, port);
        this.client.connexion();
+        this.method = method;
+        this.messageDigest = MessageDigest.getInstance(this.method);
+    }
+
+    public ClientPOP3(String ip, int port) throws IOException, CertificateException,
+            NoSuchAlgorithmException, KeyStoreException, KeyManagementException
+    {
+       this(ip, port, "MD5");
     }
 
     public String getUser() {
@@ -54,14 +67,20 @@ public class ClientPOP3 {
     }
 
     public void commandeAPOP( String user, String password) {
-        String message = APOP + " " + user + " " + password;
+        String message = APOP + " " + user + " ";
+        String  response = (String) this.readServerResponse().get("firstLine");
+        String[] splitedResponse = response.split(" ");
+        System.out.println(splitedResponse[splitedResponse.length -1] + password);
+        byte[] secret = (splitedResponse[splitedResponse.length -1] + password).getBytes();
+        this.messageDigest.update(secret);
+        secret = this.messageDigest.digest();
+        message += secret;
         try {
             this.client.sendMessage(message);
 
         } catch (IOException e) {
             e.printStackTrace();
         }
-
     }
 
     public void commandeSTAT() {
