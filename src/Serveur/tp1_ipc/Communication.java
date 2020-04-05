@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.net.Socket;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.time.Instant;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.io.*;
@@ -24,9 +27,11 @@ public class Communication implements Runnable {
     private boolean clientDemandeQuit;
     private String login;
     private static final char END_OF_TEXT = (char)3;
+    private String hostnameServeur;
+    private String timbre;
 
 
-    public Communication(Socket connexion) {
+    public Communication(Socket connexion,String hostnameServer) {
         this.connexion = connexion;
         try {
             in = new BufferedReader(new InputStreamReader(connexion.getInputStream()));
@@ -34,14 +39,46 @@ public class Communication implements Runnable {
             etat = "Initialisation";
             clientDemandeQuit = false;
             login = "";
+            hostnameServeur = hostnameServer;
         } catch (IOException ex) {
             Logger.getLogger(Communication.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
 
+    public String retournerTimbre(){
+        String processName = java.lang.management.ManagementFactory.getRuntimeMXBean().getName();
+        long id = Long.parseLong(processName.split("@")[0]);
+        Instant instant = Instant.now();
+        long time = instant.getEpochSecond();
+
+        String timbre = "<"+id+"."+time+"@"+hostnameServeur+">";
+        return timbre;
+    }
+
+    public String retournerSecret(String mdp){
+        MessageDigest messageDigest;
+        String cleAencoder = timbre+mdp;
+        StringBuffer stringBuffer = new StringBuffer();
+        try{
+            messageDigest = MessageDigest.getInstance("MD5");
+            messageDigest.update(cleAencoder.getBytes());
+            byte[] messageDigestMD5 = messageDigest.digest();
+
+            for (byte bytes : messageDigestMD5) {
+                stringBuffer.append(String.format("%02x", bytes & 0xff));
+            }
+        }catch (NoSuchAlgorithmException exception){
+            exception.printStackTrace();
+        }
+
+        return stringBuffer.toString();
+
+    }
+
     @Override
     public void run() {
-        out.println("+OK POP3 server ready");
+        timbre = this.retournerTimbre();
+        out.println("+OK POP3 server ready "+timbre);
         out.print(END_OF_TEXT);
         etat = "Autorisation";
         while (clientDemandeQuit == false) {
@@ -64,8 +101,10 @@ public class Communication implements Runnable {
                                     BufferedReader br;
                                     br = new BufferedReader(new FileReader(fileMdp));
                                     String line;
+                                    String sommeControleExact = "";
                                     while ((line = br.readLine()) != null) {
-                                        if (line.equals(messageClientSplit[2])) {
+                                        sommeControleExact = this.retournerSecret(line);
+                                        if (sommeControleExact.equals(messageClientSplit[2])) {
                                             File listeFichier1[] = file.listFiles();
                                             int nbMessages = listeFichier1.length - 1;
                                             out.println("+OK " + nbMessages + " messages");
