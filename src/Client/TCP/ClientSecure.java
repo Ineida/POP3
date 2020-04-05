@@ -14,12 +14,12 @@ public class ClientSecure  extends  Client{
     private PrintStream out;
     private BufferedReader in;
     private SSLSocket client;
-    private  String key;
+    private  String key = "password";
 
     public ClientSecure(String ip, int port) {
         this.ip = ip;
         this.port = port;
-        this.key = StringServices.generateRandomString(8);
+        //this.key = StringServices.generateRandomString(8);
     }
 
     public ClientSecure() {
@@ -83,9 +83,6 @@ public class ClientSecure  extends  Client{
 
         this.in = new BufferedReader(new InputStreamReader(this.client.getInputStream()));
         this.out = new PrintStream(this.client.getOutputStream());
-        /*for (int i=0;i<this.client.getEnabledCipherSuites().length;i++){
-            System.out.println(this.client.getEnabledCipherSuites()[i]);
-        }*/
         return true;
     }
 
@@ -110,15 +107,9 @@ public class ClientSecure  extends  Client{
      * @param message
      * @throws IOException
      */
-    public void sendMessageAvecSautLine(String message) throws IOException {
-        client.startHandshake();
-        out.println(message);
-        out.flush();
-    }
 
     public void sendMessage(String message) throws IOException {
-        client.startHandshake();
-        out.print(message);
+        out.println(message);
         out.flush();
 
     }

@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3Abstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerieAbstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerieSecure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client/pop3/POP3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyStoreClient.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyStoreName.jks" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$3$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneMessagerie.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneServeurConnexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneServeurConnexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/TCP/ClientSecure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/TCP/ClientSecure.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/pop3/ClientPOP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3/ClientPOP3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/metier/StringServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/metier/StringServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/pop3s/ClientPOP3S.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3s/ClientPOP3S.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/InterfacePOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +38,13 @@
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ClientPOPV2" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,11 +60,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Client/Controller" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Client.Controller" />
+      <recent name="Client.TCP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cardo\OneDrive\Bureau\COURS\ipc\POP3\ClientPOPV2\src\Client\Controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.InterfacePOPS">
     <configuration name="ClientPOP3S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client.pop3s.ClientPOP3S" />
       <module name="POP3" />
@@ -47,8 +91,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Client.Main" />
+    <configuration name="InterfacePOP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.InterfacePOP" />
+      <module name="POP3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfacePOPS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client.InterfacePOPS" />
       <module name="POP3" />
       <extension name="coverage">
         <pattern>
@@ -89,15 +146,17 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.ClientPOP3S" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Tp1_ipc" />
+      <item itemvalue="Application.InterfacePOP" />
+      <item itemvalue="Application.InterfacePOPS" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Tp1_ipc" />
+        <item itemvalue="Application.InterfacePOPS" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ClientPOP3S" />
+        <item itemvalue="Application.InterfacePOP" />
+        <item itemvalue="Application.Tp1_ipc" />
       </list>
     </recent_temporary>
   </component>
@@ -106,12 +165,14 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7e652579-e5db-4ccf-ad22-0fe09ba897b7" name="Default Changelist" comment="" />
+      <changelist id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="" />
       <created>1586025037246</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586025037246</updated>
       <workItem from="1586025039824" duration="856000" />
+      <workItem from="1586115159719" duration="2159000" />
+      <workItem from="1586118129677" duration="12001000" />
     </task>
     <servers />
   </component>
@@ -123,59 +184,80 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1586025889357" />
-    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser" timestamp="1586028845405">
+    <state x="381" y="144" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586129839346">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="57" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586028845405" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1586103308629">
+    <state x="381" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586129839346" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1586123082621">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586103308629" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1586103308629">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586123082621" />
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1586122551099">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586103308629" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1586103308629">
+    <state x="93" y="93" width="1095" height="495" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1586122551099" />
+    <state width="1237" height="300" key="GridCell.Tab.0.bottom" timestamp="1586130970318">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586103308629" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1586103308629">
+    <state width="1237" height="300" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586130970318" />
+    <state width="1237" height="300" key="GridCell.Tab.0.center" timestamp="1586130970318">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586103308629" />
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom" timestamp="1586101235258">
+    <state width="1237" height="300" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586130970318" />
+    <state width="1237" height="300" key="GridCell.Tab.0.left" timestamp="1586130970318">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586101235258" />
-    <state width="1237" height="204" key="GridCell.Tab.1.center" timestamp="1586101235258">
+    <state width="1237" height="300" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586130970318" />
+    <state width="1237" height="300" key="GridCell.Tab.0.right" timestamp="1586130970318">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586101235258" />
-    <state width="1237" height="204" key="GridCell.Tab.1.left" timestamp="1586101235257">
+    <state width="1237" height="300" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586130970318" />
+    <state width="1237" height="300" key="GridCell.Tab.1.bottom" timestamp="1586131006307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586101235257" />
-    <state width="1237" height="204" key="GridCell.Tab.1.right" timestamp="1586101235258">
+    <state width="1237" height="300" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586131006307" />
+    <state width="1237" height="300" key="GridCell.Tab.1.center" timestamp="1586131006307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="204" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586101235258" />
-    <state x="271" y="37" width="739" height="606" key="find.popup" timestamp="1586101767543">
+    <state width="1237" height="300" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586131006307" />
+    <state width="1237" height="300" key="GridCell.Tab.1.left" timestamp="1586131006307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="271" y="37" width="739" height="606" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1586101767543" />
+    <state width="1237" height="300" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586131006307" />
+    <state width="1237" height="300" key="GridCell.Tab.1.right" timestamp="1586131006307">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="300" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586131006307" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586115386659">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586115386659" />
+    <state x="271" y="37" width="739" height="606" key="find.popup" timestamp="1586122777703">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="271" y="37" width="739" height="606" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1586122777703" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586119320110">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1586119320110" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
-          <line>206</line>
-          <option name="timeStamp" value="74" />
+          <line>44</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
           <line>50</line>
-          <option name="timeStamp" value="80" />
+          <option name="timeStamp" value="84" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

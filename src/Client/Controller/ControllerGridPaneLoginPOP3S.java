@@ -1,6 +1,8 @@
 package Client.Controller;
 
+import Client.metier.Message;
 import Client.pop3.POP3;
+import Client.pop3s.ClientPOP3S;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
@@ -9,10 +11,10 @@ import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.control.*;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-import Client.pop3.ClientPOP3;
-import Client.metier.Message;
 
 import java.io.IOException;
 import java.net.URL;
@@ -20,15 +22,22 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.ResourceBundle;
 
-public class ControllerGridPaneLoginPOP3 extends
-        ControllerGridPaneLoginPOP3Abstract implements Initializable {
-    private ClientPOP3 client ;
+public class ControllerGridPaneLoginPOP3S extends ControllerGridPaneLoginPOP3Abstract implements Initializable {
+    private ClientPOP3S client ;
 
-    public ControllerGridPaneLoginPOP3(ClientPOP3 client) {
+    public ControllerGridPaneLoginPOP3S(ClientPOP3S client) {
         this.client = client;
     }
-    public ControllerGridPaneLoginPOP3() {
+    public ControllerGridPaneLoginPOP3S() {
         super();
+    }
+
+    public void setClient(ClientPOP3S client) {
+        this.client = client;
+    }
+
+    public ClientPOP3S getClient() {
+        return client;
     }
 
     public void demandeConnexion(ActionEvent event) throws IOException, InterruptedException {
@@ -45,7 +54,7 @@ public class ControllerGridPaneLoginPOP3 extends
                     messages = client.getAllMessage();
                     this.setMessages(messages);
                     FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxmlFile/GridPaneMessagerie.fxml"));
-                    ControllerGridPaneMessagerie controller = new ControllerGridPaneMessagerie();
+                    ControllerGridPaneMessagerieSecure controller = new ControllerGridPaneMessagerieSecure();
                     controller.setClient(client);
                     controller.setMessages(messages);
                     loader.setController(controller);

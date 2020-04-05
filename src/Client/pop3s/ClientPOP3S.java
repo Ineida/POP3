@@ -2,7 +2,9 @@ package Client.pop3s;
 
 import Client.TCP.ClientSecure;
 import Client.metier.Message;
+import Client.metier.StringServices;
 import Client.pop3.ClientPOP3;
+import Client.pop3.POP3;
 
 import javax.net.ssl.SSLSocket;
 import javax.net.ssl.SSLSocketFactory;
@@ -16,13 +18,14 @@ import java.security.cert.CertificateException;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class ClientPOP3S  extends ClientPOP3 {
+public class ClientPOP3S  extends POP3 {
     private ClientSecure client;
 
     public ClientPOP3S(String ip, int port) throws IOException, NoSuchAlgorithmException,
             CertificateException, KeyStoreException, KeyManagementException
     {
         this(ip, port,"MD5");
+        System.out.println("client secure");
     }
 
     public ClientPOP3S(String ip, int port, String method) throws IOException, NoSuchAlgorithmException,
@@ -36,14 +39,6 @@ public class ClientPOP3S  extends ClientPOP3 {
     }
 
 
-    public String getMethod() {
-        return method;
-    }
-
-    public void setMethod(String method) {
-        this.method = method;
-    }
-
     public void commandeAPOP(String user, String password) {
         String message = APOP + " " + user + " ";
         String  response = (String) this.readServerResponse().get("firstLine");
@@ -51,7 +46,7 @@ public class ClientPOP3S  extends ClientPOP3 {
         byte[] secret = (splitedResponse[splitedResponse.length -1]+password).getBytes();
         this.messageDigest.update(secret);
         secret = this.messageDigest.digest();
-        message += secret;
+        message += StringServices.byteToString(secret);
         try {
             this.client.sendMessage(message);
 
@@ -136,6 +131,7 @@ public class ClientPOP3S  extends ClientPOP3 {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println(response);
         return response;
     }
 
@@ -187,7 +183,6 @@ public class ClientPOP3S  extends ClientPOP3 {
      * si connectée il sauvegarde le user et password du client
      */
     public boolean connexion(String user, String password){
-        this.readServerResponse();
         boolean connect = false;
         this.commandeAPOP(user, password);
         HashMap response = this.readServerResponse();
@@ -204,7 +199,7 @@ public class ClientPOP3S  extends ClientPOP3 {
 
     public static void main(String[] args) throws IOException, CertificateException,
             NoSuchAlgorithmException, KeyStoreException, KeyManagementException {
-        ClientPOP3S clientPOP3S = new ClientPOP3S( "192.168.0.4", 1025);
+        ClientPOP3S clientPOP3S = new ClientPOP3S( "192.168.0.22", 1025);
         clientPOP3S.connexion("vascis", "mdp");
 
     }

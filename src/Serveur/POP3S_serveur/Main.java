@@ -3,6 +3,7 @@ package Serveur.POP3S_serveur;
 import Serveur.POP3S_serveur.Communication;
 
 
+import javax.net.ServerSocketFactory;
 import javax.net.ssl.*;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -27,7 +28,7 @@ public class Main {
             char[] passphrase = "password".toCharArray();
             KeyStore keystore = KeyStore.getInstance("JKS");
             keystore.load(null, passphrase);
-            FileOutputStream file = new FileOutputStream ("keyStoreName.jks");
+            FileOutputStream file = new FileOutputStream ("keyStoreServer.jks");
             keystore.store(file , passphrase);
             KeyManagerFactory kmf = getInstance("SunX509");
             kmf.init(keystore, passphrase);
@@ -36,7 +37,9 @@ public class Main {
 
 
             context.init(keyManagers, null, null);
-            ss = (SSLServerSocket) SSLServerSocketFactory.getDefault().createServerSocket(PORT);
+            ServerSocketFactory sf = context.getServerSocketFactory();
+
+            ss = (SSLServerSocket) sf.createServerSocket(PORT);
             System.out.println(ss);
             String [] cipherSuite = ss.getSupportedCipherSuites();
             String [] allowedCipherSuite = new String[8];

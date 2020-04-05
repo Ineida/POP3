@@ -3,6 +3,7 @@ package Client.pop3;
 import Client.TCP.Client;
 import Client.metier.Message;
 import Client.metier.StringServices;
+import com.sun.org.apache.bcel.internal.generic.POP;
 
 import java.io.File;
 import java.io.IOException;
@@ -15,7 +16,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Objects;
 
-public class ClientPOP3 {
+public class ClientPOP3 extends POP3 {
     protected static final String APOP ="APOP";
     protected static final String RETR ="RETR";
     protected static final String STAT ="STAT";
@@ -71,13 +72,11 @@ public class ClientPOP3 {
         String message = APOP + " " + user + " ";
         String  response = (String) this.readServerResponse().get("firstLine");
         String[] splitedResponse = response.split(" ");
-        System.out.println(splitedResponse[splitedResponse.length -1] + password);
         byte[] secret = (splitedResponse[splitedResponse.length -1] + password).getBytes();
         this.messageDigest.update(secret);
         secret = this.messageDigest.digest();
 
         message += StringServices.byteToString(secret);
-        System.out.println(message);
         try {
             this.client.sendMessage(message);
 
