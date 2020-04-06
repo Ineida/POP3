@@ -81,12 +81,15 @@ public class ControllerGridPaneLoginPOP3 extends
         }
 
         password.setText("");
+        password.setPromptText("");
         login.setText("");
+        login.setPromptText("");;
         this.connect = connect;
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        this.client.readServerResponse();
         this.validate.setOnAction(new EventHandler<ActionEvent>(){
             @Override
             public void handle(ActionEvent event) {

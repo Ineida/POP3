@@ -96,6 +96,7 @@ public class ControllerGridPaneLoginPOP3S extends ControllerGridPaneLoginPOP3Abs
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        this.client.readServerResponse();
         this.validate.setOnAction(new EventHandler<ActionEvent>(){
             @Override
             public void handle(ActionEvent event) {

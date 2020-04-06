@@ -61,7 +61,7 @@ public class ControllerGridPaneMessagerie  extends
                         Scene loginScene = new Scene(serveur);
                         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
                         window.setScene(loginScene);
-                        String title = "Connexion serveur secure";
+                        String title = "Connexion serveur";
                         window.setTitle(title);
                     }
                 });

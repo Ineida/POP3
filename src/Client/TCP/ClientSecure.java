@@ -14,12 +14,11 @@ public class ClientSecure  extends  Client{
     private PrintStream out;
     private BufferedReader in;
     private SSLSocket client;
-    private  String key = "password";
+    private  String key = "passwordClient";
 
     public ClientSecure(String ip, int port) {
         this.ip = ip;
         this.port = port;
-        //this.key = StringServices.generateRandomString(8);
     }
 
     public ClientSecure() {
@@ -66,7 +65,6 @@ public class ClientSecure  extends  Client{
 
         this.client = (SSLSocket) sf.createSocket(this.ip, this.port);
         if(wantClientAuth) this.client.setWantClientAuth(true);
-        //this.client.getSession().getCipherSuite();
         String [] cipherSuite = this.client.getSupportedCipherSuites();
         String [] allowedCipherSuite = new String[8];
         int j=0;

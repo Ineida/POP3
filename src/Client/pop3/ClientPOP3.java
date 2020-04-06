@@ -17,16 +17,7 @@ import java.util.HashMap;
 import java.util.Objects;
 
 public class ClientPOP3 extends POP3 {
-    protected static final String APOP ="APOP";
-    protected static final String RETR ="RETR";
-    protected static final String STAT ="STAT";
-    protected static final String QUIT ="QUIT";
     private Client client;
-    protected String user;
-    protected String password;
-    protected String ressourcesName = "src/Client/ClientAccount/";
-    protected MessageDigest messageDigest;
-    protected  String method;
 
     public ClientPOP3() {
         super();
@@ -47,32 +38,9 @@ public class ClientPOP3 extends POP3 {
        this(ip, port, "MD5");
     }
 
-    public String getUser() {
-        return user;
-    }
-
-    public void setUser(String user) {
-        this.user = user;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    //unique car chaque utilisateur est differents dans les serveur
-    public String getUserResourcesName() {
-        return this.ressourcesName;
-    }
-
     public void commandeAPOP( String user, String password) {
         String message = APOP + " " + user + " ";
-        String  response = (String) this.readServerResponse().get("firstLine");
-        String[] splitedResponse = response.split(" ");
-        byte[] secret = (splitedResponse[splitedResponse.length -1] + password).getBytes();
+        byte[] secret = (timbre + password).getBytes();
         this.messageDigest.update(secret);
         secret = this.messageDigest.digest();
 
@@ -151,12 +119,17 @@ public class ClientPOP3 extends POP3 {
             }
             if (firstline.contains("+OK")) {
                 response.put("succes", true);
-                response.put("firstLine", firstline);
             } else {
                 response.put("succes", false);
             }
             response.put("message", messageRead);
+            response.put("firstLine", firstline);
 
+            String responseF;
+            if((responseF = (String)response.get("firstLine")).contains("+OK POP3 server ready")){
+                String[] splitedResponse = responseF.split(" ");
+                this.timbre = splitedResponse[splitedResponse.length -1];
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -212,7 +185,6 @@ public class ClientPOP3 extends POP3 {
      */
     public boolean connexion(String user, String password){
         boolean connect = false;
-
         this.commandeAPOP(user, password);
         HashMap response = this.readServerResponse();
         connect = (boolean)response.get("succes");

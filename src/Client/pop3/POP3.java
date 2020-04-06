@@ -21,6 +21,7 @@ public abstract class  POP3 {
     protected String ressourcesName = "src/Client/ClientAccount/";
     protected MessageDigest messageDigest;
     protected  String method;
+    protected  String timbre;
     public String getUser() {
         return user;
     }

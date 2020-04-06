@@ -20,6 +20,7 @@ import java.util.HashMap;
 
 public class ClientPOP3S  extends POP3 {
     private ClientSecure client;
+    private String timbre;
 
     public ClientPOP3S(String ip, int port) throws IOException, NoSuchAlgorithmException,
             CertificateException, KeyStoreException, KeyManagementException
@@ -41,9 +42,7 @@ public class ClientPOP3S  extends POP3 {
 
     public void commandeAPOP(String user, String password) {
         String message = APOP + " " + user + " ";
-        String  response = (String) this.readServerResponse().get("firstLine");
-        String[] splitedResponse = response.split(" ");
-        byte[] secret = (splitedResponse[splitedResponse.length -1]+password).getBytes();
+        byte[] secret = (this.timbre +password).getBytes();
         this.messageDigest.update(secret);
         secret = this.messageDigest.digest();
         message += StringServices.byteToString(secret);
@@ -127,11 +126,14 @@ public class ClientPOP3S  extends POP3 {
                 response.put("succes", false);
             }
             response.put("message", messageRead);
-
+            String responseF;
+            if((responseF = (String)response.get("firstLine")).contains("+OK POP3 server ready")){
+                String[] splitedResponse = responseF.split(" ");
+                this.timbre = splitedResponse[splitedResponse.length -1];
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
-        System.out.println(response);
         return response;
     }
 
