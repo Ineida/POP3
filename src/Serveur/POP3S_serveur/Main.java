@@ -19,7 +19,7 @@ import static javax.net.ssl.KeyManagerFactory.*;
 
 public class Main {
 
-    private static final int PORT = 1025;
+    private static final int PORT = 995;
     private static SSLServerSocket ss;
     private static SSLSocket connexion;
 
@@ -62,7 +62,7 @@ public class Main {
             while(true){
                 connexion = (SSLSocket) ss.accept();
                 System.out.println(connexion);
-                ss.setNeedClientAuth(true);
+                ss.setNeedClientAuth(false);
 
                 new Thread(new Communication(connexion,ss.getInetAddress().getHostName())).start();
             }

@@ -20,7 +20,6 @@ import java.util.HashMap;
 
 public class ClientPOP3S  extends POP3 {
     private ClientSecure client;
-    private String timbre;
 
     public ClientPOP3S(String ip, int port) throws IOException, NoSuchAlgorithmException,
             CertificateException, KeyStoreException, KeyManagementException
@@ -121,11 +120,13 @@ public class ClientPOP3S  extends POP3 {
             }
             if (firstline.contains("+OK")) {
                 response.put("succes", true);
-                response.put("firstLine", firstline);
+
             } else {
                 response.put("succes", false);
             }
             response.put("message", messageRead);
+            response.put("firstLine", firstline);
+
             String responseF;
             if((responseF = (String)response.get("firstLine")).contains("+OK POP3 server ready")){
                 String[] splitedResponse = responseF.split(" ");

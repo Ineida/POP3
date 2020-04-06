@@ -22,7 +22,7 @@ public class Tp1_ipc {
      * @param args the command line arguments
      */
 
-    private static final int PORT = 1025;
+    private static final int PORT = 110;
     private static  ServerSocket ss;
     private static Socket connexion;
 

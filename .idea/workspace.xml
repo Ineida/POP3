@@ -3,25 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyStoreClient.jks" beforeDir="false" afterPath="$PROJECT_DIR$/keyStoreClient.jks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/keyStoreServer.jks" beforeDir="false" afterPath="$PROJECT_DIR$/keyStoreServer.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3S$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3S$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3S.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3S.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/TCP/ClientSecure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/TCP/ClientSecure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/pop3/ClientPOP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3/ClientPOP3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/pop3/POP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3/POP3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/pop3s/ClientPOP3S.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3s/ClientPOP3S.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Communication.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Communication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3S.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/pop3/POP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3/POP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/InterfacePOP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/InterfacePOPS.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Tp1_ipc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Tp1_ipc.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,8 +133,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfacePOP" />
         <item itemvalue="Application.Tp1_ipc" />
+        <item itemvalue="Application.InterfacePOP" />
         <item itemvalue="Application.InterfacePOPS" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ClientPOP3S" />
@@ -194,38 +183,38 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="42" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586175211228" />
-    <state width="1237" height="300" key="GridCell.Tab.0.bottom" timestamp="1586200950325">
+    <state width="1237" height="484" key="GridCell.Tab.0.bottom" timestamp="1586205811039">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586200950325" />
-    <state width="1237" height="300" key="GridCell.Tab.0.center" timestamp="1586200950324">
+    <state width="1237" height="484" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586205811039" />
+    <state width="1237" height="484" key="GridCell.Tab.0.center" timestamp="1586205811038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586200950324" />
-    <state width="1237" height="300" key="GridCell.Tab.0.left" timestamp="1586200950324">
+    <state width="1237" height="484" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586205811038" />
+    <state width="1237" height="484" key="GridCell.Tab.0.left" timestamp="1586205811038">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586200950324" />
-    <state width="1237" height="300" key="GridCell.Tab.0.right" timestamp="1586200950324">
+    <state width="1237" height="484" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586205811038" />
+    <state width="1237" height="484" key="GridCell.Tab.0.right" timestamp="1586205811039">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586200950324" />
-    <state width="1237" height="300" key="GridCell.Tab.1.bottom" timestamp="1586200950325">
+    <state width="1237" height="484" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586205811039" />
+    <state width="1237" height="300" key="GridCell.Tab.1.bottom" timestamp="1586205230199">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586200950325" />
-    <state width="1237" height="300" key="GridCell.Tab.1.center" timestamp="1586200950325">
+    <state width="1237" height="300" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586205230199" />
+    <state width="1237" height="300" key="GridCell.Tab.1.center" timestamp="1586205230199">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586200950325" />
-    <state width="1237" height="300" key="GridCell.Tab.1.left" timestamp="1586200950325">
+    <state width="1237" height="300" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586205230199" />
+    <state width="1237" height="300" key="GridCell.Tab.1.left" timestamp="1586205230199">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586200950325" />
-    <state width="1237" height="300" key="GridCell.Tab.1.right" timestamp="1586200950325">
+    <state width="1237" height="300" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586205230199" />
+    <state width="1237" height="300" key="GridCell.Tab.1.right" timestamp="1586205230199">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586200950325" />
+    <state width="1237" height="300" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586205230199" />
     <state x="315" y="40" key="NewModule_or_Project.wizard" timestamp="1586175223019">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -248,22 +237,22 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
-          <line>44</line>
+          <line>43</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
-          <line>45</line>
+          <line>44</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
-          <line>49</line>
+          <line>48</line>
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
-          <line>189</line>
+          <line>190</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
