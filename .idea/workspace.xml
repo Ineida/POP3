@@ -2,27 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneServeurConnexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneServeurConnexion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/TCP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/Ineida/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Serveur/Users/Ineida/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/Ineida/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/vascis/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/vascis/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/vascis/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +152,7 @@
       <workItem from="1586260859511" duration="811000" />
       <workItem from="1586261820391" duration="79000" />
       <workItem from="1587372959250" duration="14935000" />
-      <workItem from="1587395152504" duration="561000" />
+      <workItem from="1587395152504" duration="854000" />
     </task>
     <servers />
   </component>

@@ -2,7 +2,7 @@ Date: Tue, 9 Sep 2008 09:33:17 +0200
 To: <ineida@ubuntu.com>
 Message-ID: ineida2
 Subject: [Son] Relance Silence complet sur mon ESS ES1978 Maestro 2E
-From: Stephane Bortzmeyer <stephane@sources.org>
+From: Stephane <stephane@sources.org>
 
 Bonjour,
 Je vous recontact au sujet du son Linux.
