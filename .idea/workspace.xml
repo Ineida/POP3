@@ -3,13 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/ClientAccount/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/ClientAccount/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/ClientAccount/3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3Abstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/InterfacePOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/InterfacePOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/InterfacePOP.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/InterfacePOP.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/fxmlFile/gridPaneServeurConnexion.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3S.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/InterfacePOPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/InterfacePOPS.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/fxmlFile/gridPaneServeurConnexion.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +55,7 @@
       <recent name="C:\Users\cardo\OneDrive\Bureau\COURS\ipc\POP3\ClientPOPV2\src\Client\Controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterfacePOP">
+  <component name="RunManager" selected="Application.InterfacePOPS">
     <configuration name="ClientPOP3S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client.pop3s.ClientPOP3S" />
       <module name="POP3" />
@@ -133,10 +130,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfacePOP" />
-        <item itemvalue="Application.Tp1_ipc" />
         <item itemvalue="Application.InterfacePOPS" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.InterfacePOP" />
+        <item itemvalue="Application.Tp1_ipc" />
         <item itemvalue="Application.ClientPOP3S" />
       </list>
     </recent_temporary>
@@ -158,7 +155,7 @@
       <workItem from="1586197799815" duration="3478000" />
       <workItem from="1586260859511" duration="811000" />
       <workItem from="1586261820391" duration="79000" />
-      <workItem from="1587372959250" duration="5491000" />
+      <workItem from="1587372959250" duration="7800000" />
     </task>
     <servers />
   </component>
@@ -186,22 +183,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="42" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586175211228" />
-    <state width="1237" height="27" key="GridCell.Tab.0.bottom" timestamp="1587378461916">
+    <state width="1237" height="193" key="GridCell.Tab.0.bottom" timestamp="1587385030157">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="27" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587378461916" />
-    <state width="1237" height="27" key="GridCell.Tab.0.center" timestamp="1587378461916">
+    <state width="1237" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587385030157" />
+    <state width="1237" height="193" key="GridCell.Tab.0.center" timestamp="1587385030156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="27" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587378461916" />
-    <state width="1237" height="27" key="GridCell.Tab.0.left" timestamp="1587378461915">
+    <state width="1237" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587385030156" />
+    <state width="1237" height="193" key="GridCell.Tab.0.left" timestamp="1587385030156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="27" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587378461915" />
-    <state width="1237" height="27" key="GridCell.Tab.0.right" timestamp="1587378461916">
+    <state width="1237" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587385030156" />
+    <state width="1237" height="193" key="GridCell.Tab.0.right" timestamp="1587385030156">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="27" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587378461916" />
+    <state width="1237" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587385030156" />
     <state width="1237" height="300" key="GridCell.Tab.1.bottom" timestamp="1587373285227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
