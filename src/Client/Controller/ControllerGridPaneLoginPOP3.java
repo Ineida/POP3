@@ -14,6 +14,7 @@ import javafx.stage.Stage;
 import Client.pop3.ClientPOP3;
 import Client.metier.Message;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -97,6 +98,8 @@ public class ControllerGridPaneLoginPOP3 extends
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        File file = new File("../ClientAccount");
+        this.client.deleteUserFiles(file);
         this.client.readServerResponse();
         this.validate.setOnAction(new EventHandler<ActionEvent>(){
             @Override

@@ -17,8 +17,10 @@ import javafx.stage.Stage;
 import Client.pop3.ClientPOP3;
 import Client.metier.Etat;
 
+import javax.security.sasl.SaslException;
 import java.io.IOException;
 import java.net.ConnectException;
+import java.net.SocketException;
 import java.net.URL;
 import java.net.UnknownHostException;
 import java.security.KeyManagementException;
@@ -113,14 +115,16 @@ public class ControllerGridPaneServeurConnexion implements Initializable {
 
         } catch (NumberFormatException ignored) {
             this.setError("Veulliez saisir pour le port un nombre entier");
-        }catch (ConnectException ignored){
-            if (ignored.getMessage().contains("Connection refused: connect"))
+        }catch (ConnectException e0){
+            if (e0.getMessage().contains("Connection refused: connect"))
                 this.setError("Veulliez verifier si le serveur est en marche et si le port est correct");
-            else if(ignored.getMessage().contains("Connection timed out: connect"))
+            else if(e0.getMessage().contains("Connection timed out: connect"))
                 this.setError("Veulliez verifier si l'adresse IP du serveur est correct");
             else  this.setError("Veulliez verifier si le serveur est en marche et si le port  et l'adresse IP sont correct");
-        } catch (UnknownHostException uhe){
+        } catch (UnknownHostException e){
             this.setError("Le serveur n'est pas connu");
+        }catch (SocketException s){
+            this.setError("Probleme de connection au réseau");
         }catch(IOException e){
             this.setError("une erreur s'est produit");
             e.printStackTrace();

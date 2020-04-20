@@ -47,12 +47,13 @@ public class ControllerGridPaneMessagerie  extends
                     public void handle(MouseEvent event) {
                         try {
                             client.closeConnexion();
-                        } catch (IOException e) {
-                            e.printStackTrace();
+                        } catch (IOException ignored) {
+
                         }
                         FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxmlFile/GridPaneServeurConnexion.fxml"));
                         Parent serveur = null;
                         try {
+                            loader.setController(new ControllerGridPaneServeurConnexion());
                             serveur = loader.load();
                         } catch (IOException e) {
                             e.printStackTrace();

@@ -9,6 +9,9 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
+import java.io.File;
+import java.util.Objects;
+
 public class InterfacePOPS extends Application {
 
     @Override

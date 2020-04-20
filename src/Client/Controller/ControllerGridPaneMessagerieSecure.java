@@ -56,6 +56,7 @@ public class ControllerGridPaneMessagerieSecure extends
                         FXMLLoader loader = new FXMLLoader(getClass().getResource("../fxmlFile/GridPaneServeurConnexion.fxml"));
                         Parent serveur = null;
                         try {
+                            loader.setController(new ControllerGridPaneServeurConnexion());
                             serveur = loader.load();
                         } catch (IOException e) {
                             e.printStackTrace();

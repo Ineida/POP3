@@ -16,6 +16,7 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.io.IOException;
 import java.net.URL;
 import java.util.ArrayList;
@@ -102,6 +103,8 @@ public class ControllerGridPaneLoginPOP3S extends ControllerGridPaneLoginPOP3Abs
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        File file = new File("src/Client/ClientAccount");
+        this.client.deleteUserFiles(file);
         this.client.readServerResponse();
         this.validate.setOnAction(new EventHandler<ActionEvent>(){
             @Override
