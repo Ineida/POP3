@@ -85,6 +85,7 @@ public class Client {
      */
     public void sendMessage(String message) throws IOException {
         out.println(message);
+        System.out.println("Client" + message +"\n\n");
     }
 
 

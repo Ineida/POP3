@@ -1,8 +1,8 @@
 From: John Doe <jdoe@free.fr>
-To: Mary Smith <mary@yahoo.fr>
+To:Vascis Smith <vascis@yahoo.fr>
 Subject: TD de mercredi
 Date: Vendredi 22 Fevrier 2020 20:13
-Message-ID: <1234@yahoo.fr>
+Message-ID: 1
 
 Bonjour,
 Le TD de mercredi aura lieu en salle 123.

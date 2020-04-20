@@ -109,6 +109,7 @@ public class ClientSecure  extends  Client{
     public void sendMessage(String message) throws IOException {
         out.println(message);
         out.flush();
+        System.out.println("Client" + message +"\n\n");
 
     }
 

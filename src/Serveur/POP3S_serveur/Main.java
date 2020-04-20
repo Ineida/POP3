@@ -19,7 +19,7 @@ import static javax.net.ssl.KeyManagerFactory.*;
 
 public class Main {
 
-    private static final int PORT = 995;
+    private static final int PORT = 1025;
     private static SSLServerSocket ss;
     private static SSLSocket connexion;
 

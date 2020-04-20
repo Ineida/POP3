@@ -3,33 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneLoginPOP3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/InterfacePOPS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/InterfacePOPS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Ineida/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Ineida/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Ineida/3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Ineida/mdp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/vascis/1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/vascis/2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/vascis/3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/vascis/mdp.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3S.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerieSecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneMessagerieSecure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneServeurConnexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/Controller/ControllerGridPaneServeurConnexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/Ineida/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/Users/vascis/3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/InterfacePOPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/InterfacePOPS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Ineida/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Ineida/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Ineida/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/Ineida/mdp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/mdp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Communication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Communication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/vascis/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/vascis/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/vascis/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/vascis/mdp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/mdp.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/TCP/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/TCP/ClientSecure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/Ineida/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/Ineida/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/Ineida/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/Ineida/3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/vascis/1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/vascis/2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serveur/Users/vascis/3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/Users/vascis/3.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Client/Controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Serveur/Users/vascis" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -74,10 +67,11 @@
       <recent name="Client.TCP" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\cardo\OneDrive\Bureau\COURS\ipc\POP3\ClientPOPV2\src\Serveur\Users\vascis" />
       <recent name="C:\Users\cardo\OneDrive\Bureau\COURS\ipc\POP3\ClientPOPV2\src\Client\Controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tp1_ipc">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="ClientPOP3S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client.pop3s.ClientPOP3S" />
       <module name="POP3" />
@@ -152,10 +146,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.InterfacePOP" />
-        <item itemvalue="Application.Tp1_ipc" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.InterfacePOPS" />
+        <item itemvalue="Application.Tp1_ipc" />
+        <item itemvalue="Application.InterfacePOP" />
         <item itemvalue="Application.ClientPOP3S" />
       </list>
     </recent_temporary>
@@ -177,7 +171,8 @@
       <workItem from="1586197799815" duration="3478000" />
       <workItem from="1586260859511" duration="811000" />
       <workItem from="1586261820391" duration="79000" />
-      <workItem from="1587372959250" duration="9917000" />
+      <workItem from="1587372959250" duration="14935000" />
+      <workItem from="1587395152504" duration="561000" />
     </task>
     <servers />
   </component>
@@ -205,50 +200,50 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="42" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586175211228" />
-    <state width="1237" height="193" key="GridCell.Tab.0.bottom" timestamp="1587388865314">
+    <state width="1237" height="290" key="GridCell.Tab.0.bottom" timestamp="1587393916579">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587388865314" />
-    <state width="1237" height="193" key="GridCell.Tab.0.center" timestamp="1587388865314">
+    <state width="1237" height="290" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587393916579" />
+    <state width="1237" height="290" key="GridCell.Tab.0.center" timestamp="1587393916578">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587388865314" />
-    <state width="1237" height="193" key="GridCell.Tab.0.left" timestamp="1587388865314">
+    <state width="1237" height="290" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587393916578" />
+    <state width="1237" height="290" key="GridCell.Tab.0.left" timestamp="1587393916578">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587388865314" />
-    <state width="1237" height="193" key="GridCell.Tab.0.right" timestamp="1587388865314">
+    <state width="1237" height="290" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587393916578" />
+    <state width="1237" height="290" key="GridCell.Tab.0.right" timestamp="1587393916578">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="193" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587388865314" />
-    <state width="1237" height="300" key="GridCell.Tab.1.bottom" timestamp="1587373285227">
+    <state width="1237" height="290" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587393916578" />
+    <state width="1237" height="300" key="GridCell.Tab.1.bottom" timestamp="1587393912959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587373285227" />
-    <state width="1237" height="300" key="GridCell.Tab.1.center" timestamp="1587373285227">
+    <state width="1237" height="300" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587393912959" />
+    <state width="1237" height="300" key="GridCell.Tab.1.center" timestamp="1587393912959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587373285227" />
-    <state width="1237" height="300" key="GridCell.Tab.1.left" timestamp="1587373285226">
+    <state width="1237" height="300" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587393912959" />
+    <state width="1237" height="300" key="GridCell.Tab.1.left" timestamp="1587393912959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587373285226" />
-    <state width="1237" height="300" key="GridCell.Tab.1.right" timestamp="1587373285227">
+    <state width="1237" height="300" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587393912959" />
+    <state width="1237" height="300" key="GridCell.Tab.1.right" timestamp="1587393912959">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587373285227" />
+    <state width="1237" height="300" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587393912959" />
     <state x="315" y="40" key="NewModule_or_Project.wizard" timestamp="1586175223019">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="315" y="40" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1586175223019" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586261830580">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1587395152398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586261830580" />
-    <state x="271" y="37" width="739" height="606" key="find.popup" timestamp="1586201303364">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1587395152398" />
+    <state x="271" y="37" width="739" height="606" key="find.popup" timestamp="1587395382072">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="271" y="37" width="739" height="606" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1586201303364" />
+    <state x="271" y="37" width="739" height="606" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1587395382072" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1586119320110">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -274,7 +269,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java</url>
-          <line>190</line>
+          <line>191</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -284,12 +279,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/pop3/ClientPOP3.java</url>
-          <line>188</line>
+          <line>189</line>
           <option name="timeStamp" value="88" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java</url>
-          <line>89</line>
+          <line>91</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>

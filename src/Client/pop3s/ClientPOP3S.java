@@ -135,6 +135,7 @@ public class ClientPOP3S  extends POP3 {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("reponse serveur: \n" +response +"\n\n");
         return response;
     }
 

@@ -16,6 +16,7 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import Client.pop3.ClientPOP3;
 import Client.metier.Etat;
+import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
 
 import javax.security.sasl.SaslException;
 import java.io.IOException;
@@ -56,7 +57,8 @@ public class ControllerGridPaneServeurConnexion implements Initializable {
     }
 
     public int getInputPort() {
-        return Integer.parseInt(port.getText());
+        System.out.println(port.getText());
+        return port.getText().isEmpty() ? 0: Integer.parseInt(port.getText());
     }
 
     public void setError(String error) {
@@ -111,9 +113,12 @@ public class ControllerGridPaneServeurConnexion implements Initializable {
                 Scene loginScene = new Scene(gridPaneLogin);
                 window.setScene(loginScene);
                 window.setTitle(title);
+            }else {
+                setError("Port ou Adresse IP vide");
             }
 
         } catch (NumberFormatException ignored) {
+            ignored.printStackTrace();
             this.setError("Veulliez saisir pour le port un nombre entier");
         }catch (ConnectException e0){
             if (e0.getMessage().contains("Connection refused: connect"))

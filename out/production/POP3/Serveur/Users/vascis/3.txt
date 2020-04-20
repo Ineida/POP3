@@ -1,5 +1,5 @@
 From: Thierry Simon <tsimon@free.fr>
-To: Mary Smith 3 <mary3@yahoo.fr>
+To: Vascis Smith <vascis@yahoo.fr>
 To: Mary Smith 2 <mary2@yahoo.fr>
 To: Mary Smith 1 <mary1@yahoo.fr>
 To: Mary Smith <mary@yahoo.fr>
