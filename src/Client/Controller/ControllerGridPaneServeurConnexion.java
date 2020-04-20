@@ -5,6 +5,8 @@ import Client.pop3s.ClientPOP3S;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
@@ -16,13 +18,16 @@ import Client.pop3.ClientPOP3;
 import Client.metier.Etat;
 
 import java.io.IOException;
+import java.net.ConnectException;
+import java.net.URL;
 import java.net.UnknownHostException;
 import java.security.KeyManagementException;
 import java.security.KeyStoreException;
 import java.security.NoSuchAlgorithmException;
 import java.security.cert.CertificateException;
+import java.util.ResourceBundle;
 
-public class ControllerGridPaneServeurConnexion {
+public class ControllerGridPaneServeurConnexion implements Initializable {
     @FXML
     private Button validate;
 
@@ -38,6 +43,11 @@ public class ControllerGridPaneServeurConnexion {
     private POP3 client;
     private boolean demandeConnection = false;
     private String ETAT = "INITIALISATION";
+    private String messageError;
+
+    public void setMessageError(String messageError) {
+        this.messageError = messageError;
+    }
 
     public String getInputIp_address() throws UnknownHostException {
         return String.valueOf(ip_address.getText());
@@ -101,20 +111,22 @@ public class ControllerGridPaneServeurConnexion {
                 window.setTitle(title);
             }
 
-        } catch(IOException e){
-            this.setError("une erreur s'est produit:" + e.getMessage());
+        } catch (NumberFormatException ignored) {
+            this.setError("Veulliez saisir pour le port un nombre entier");
+        }catch (ConnectException ignored){
+            if (ignored.getMessage().contains("Connection refused: connect"))
+                this.setError("Veulliez verifier si le serveur est en marche et si le port est correct");
+            else if(ignored.getMessage().contains("Connection timed out: connect"))
+                this.setError("Veulliez verifier si l'adresse IP du serveur est correct");
+            else  this.setError("Veulliez verifier si le serveur est en marche et si le port  et l'adresse IP sont correct");
+        } catch (UnknownHostException uhe){
+            this.setError("Le serveur n'est pas connu");
+        }catch(IOException e){
+            this.setError("une erreur s'est produit");
+            e.printStackTrace();
             connexion = false;
-        } catch(CertificateException e1){
-            this.setError("une erreur s'est produit:" + e1.getMessage());
-            connexion = false;
-        } catch(NoSuchAlgorithmException e){
-            this.setError("une erreur s'est produit:" + e.getMessage());
-            connexion = false;
-        } catch(KeyStoreException e){
-            this.setError("une erreur s'est produit:" + e.getMessage());
-            connexion = false;
-        } catch(KeyManagementException e){
-            this.setError("une erreur s'est produit:" + e.getMessage());
+        } catch(CertificateException | NoSuchAlgorithmException | KeyStoreException | KeyManagementException e1){
+            this.setError("une erreur s'est produit");
             connexion = false;
         } finally{
             this.port.setText("");
@@ -123,5 +135,12 @@ public class ControllerGridPaneServeurConnexion {
         }
 
         return connexion;
+    }
+
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        this.error.setAlignment(Pos.CENTER);
+        this.error.setWrapText(true);
+        this.setError(messageError);
     }
 }

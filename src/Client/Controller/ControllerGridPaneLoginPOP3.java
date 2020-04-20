@@ -65,11 +65,19 @@ public class ControllerGridPaneLoginPOP3 extends
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            FXMLLoader loader = new FXMLLoader(getClass().
+            FXMLLoader loader = new FXMLLoader();
+            loader.setLocation(getClass().
                     getResource("../fxmlFile/GridPaneServeurConnexion.fxml"));
             Parent serveur = null;
             try {
+                ControllerGridPaneServeurConnexion controllerGridPaneServeurConnexion
+                        = new ControllerGridPaneServeurConnexion();
+
+                controllerGridPaneServeurConnexion.setMessageError("Vous avez effectué plus de 3 tentative de connection au " +
+                        "serveur POP3. Veuillez reessayer");
+                loader.setController(controllerGridPaneServeurConnexion);
                 serveur = loader.load();
+
             } catch (IOException e) {
                 e.printStackTrace();
             }

@@ -38,7 +38,7 @@ public abstract class ControllerGridPaneLoginPOP3Abstract implements Initializab
     protected List<Message> messages = new ArrayList<Message>();
 
     protected boolean connect;
-    protected final int NOMBRE_MAX_CONNEXION =3;
+    protected final int NOMBRE_MAX_CONNEXION =2; // 3 tentative car commence à 0
     protected int nombre_tentative = 0;
     protected String ETAT = "INITIALISATION";
 

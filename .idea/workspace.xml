@@ -3,14 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="05871ccb-fa07-4392-a2f7-c68c41e3dc22" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/keyStoreServer.jks" beforeDir="false" afterPath="$PROJECT_DIR$/keyStoreServer.jks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Client/pop3s/ClientPOP3S.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Client/pop3s/ClientPOP3S.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/POP3/Serveur/POP3S_serveur/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/InterfacePOP.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/InterfacePOPS.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/pop3s/ClientPOP3S.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/POP3S_serveur/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Tp1_ipc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Serveur/tp1_ipc/Tp1_ipc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/ClientAccount/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/ClientAccount/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/ClientAccount/3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3Abstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneLoginPOP3Abstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/InterfacePOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/InterfacePOP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Client/fxmlFile/gridPaneServeurConnexion.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client/fxmlFile/gridPaneServeurConnexion.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <recent name="C:\Users\cardo\OneDrive\Bureau\COURS\ipc\POP3\ClientPOPV2\src\Client\Controller" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Tp1_ipc">
+  <component name="RunManager" selected="Application.InterfacePOP">
     <configuration name="ClientPOP3S" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Client.pop3s.ClientPOP3S" />
       <module name="POP3" />
@@ -133,8 +133,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Tp1_ipc" />
         <item itemvalue="Application.InterfacePOP" />
+        <item itemvalue="Application.Tp1_ipc" />
         <item itemvalue="Application.InterfacePOPS" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ClientPOP3S" />
@@ -156,6 +156,9 @@
       <workItem from="1586118129677" duration="12228000" />
       <workItem from="1586164916633" duration="6506000" />
       <workItem from="1586197799815" duration="3478000" />
+      <workItem from="1586260859511" duration="811000" />
+      <workItem from="1586261820391" duration="79000" />
+      <workItem from="1587372959250" duration="5491000" />
     </task>
     <servers />
   </component>
@@ -171,10 +174,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="381" y="144" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1586129839346" />
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1586123082621">
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser" timestamp="1587374080133">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1586123082621" />
+    <state x="446" y="49" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1587374080133" />
     <state x="93" y="93" width="1095" height="495" key="DiffContextDialog" timestamp="1586201307398">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -183,46 +186,46 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="42" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1586175211228" />
-    <state width="1237" height="484" key="GridCell.Tab.0.bottom" timestamp="1586205811039">
+    <state width="1237" height="27" key="GridCell.Tab.0.bottom" timestamp="1587378461916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="484" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586205811039" />
-    <state width="1237" height="484" key="GridCell.Tab.0.center" timestamp="1586205811038">
+    <state width="1237" height="27" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587378461916" />
+    <state width="1237" height="27" key="GridCell.Tab.0.center" timestamp="1587378461916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="484" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1586205811038" />
-    <state width="1237" height="484" key="GridCell.Tab.0.left" timestamp="1586205811038">
+    <state width="1237" height="27" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1587378461916" />
+    <state width="1237" height="27" key="GridCell.Tab.0.left" timestamp="1587378461915">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="484" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1586205811038" />
-    <state width="1237" height="484" key="GridCell.Tab.0.right" timestamp="1586205811039">
+    <state width="1237" height="27" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1587378461915" />
+    <state width="1237" height="27" key="GridCell.Tab.0.right" timestamp="1587378461916">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="484" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1586205811039" />
-    <state width="1237" height="300" key="GridCell.Tab.1.bottom" timestamp="1586205230199">
+    <state width="1237" height="27" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1587378461916" />
+    <state width="1237" height="300" key="GridCell.Tab.1.bottom" timestamp="1587373285227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1586205230199" />
-    <state width="1237" height="300" key="GridCell.Tab.1.center" timestamp="1586205230199">
+    <state width="1237" height="300" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1587373285227" />
+    <state width="1237" height="300" key="GridCell.Tab.1.center" timestamp="1587373285227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1586205230199" />
-    <state width="1237" height="300" key="GridCell.Tab.1.left" timestamp="1586205230199">
+    <state width="1237" height="300" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1587373285227" />
+    <state width="1237" height="300" key="GridCell.Tab.1.left" timestamp="1587373285226">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1586205230199" />
-    <state width="1237" height="300" key="GridCell.Tab.1.right" timestamp="1586205230199">
+    <state width="1237" height="300" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1587373285226" />
+    <state width="1237" height="300" key="GridCell.Tab.1.right" timestamp="1587373285227">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="300" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1586205230199" />
+    <state width="1237" height="300" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1587373285227" />
     <state x="315" y="40" key="NewModule_or_Project.wizard" timestamp="1586175223019">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="315" y="40" key="NewModule_or_Project.wizard/0.0.1280.680@0.0.1280.680" timestamp="1586175223019" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586164916778">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1586261830580">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586164916778" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1586261830580" />
     <state x="271" y="37" width="739" height="606" key="find.popup" timestamp="1586201303364">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -267,7 +270,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Client/Controller/ControllerGridPaneServeurConnexion.java</url>
-          <line>77</line>
+          <line>87</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
       </breakpoints>
